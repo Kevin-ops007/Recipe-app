@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@500&display=swap");
+
+* {
+font-family: 'Baloo Tamma 2', cursive;
+  margin: 0;
+  padding: 0;
+ 
+  text-decoration: none;
+  list-style-type: none;
+  outline: none;
+}
+
+    
+body {
+    background:#f3f3f3;
+  }
+html {
+  font-size: 62.5%;
+}
+
+.App {
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+    background-color: #ffffff;
+    height: 4rem;
+    width:100%;
+    text-align: center;
+    font-size: 4rem;
+    padding: 5%;
+    color: rgb(35, 247, 28);
+    
+   
+}
+
+.search-form {
+  width: 60rem;
+  height: 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 0.5rem;
+  margin-bottom: 5rem;
+
+  position: relative;
+}
+
+.alert {
+  position: absolute;
+  top: -3rem;
+  left: 0;
+  background-color: rgb(233, 72, 72);
+  width: calc(100% - 0.4rem);
+  border-radius: 0.5rem;
+  padding: 0.2rem;
+}
+
+.alert h3 {
+  font-size: 1.8rem;
+  color: #fff;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.search-form input {
+  font-size: 1.6rem;
+  border: none;
+  border-bottom: 0.1rem solid #ccc;
+  margin: 0 0.5rem;
+  border-radius: 10%;
+  height: 3rem;
+}
+
+.search-form input[type="text"] {
+  padding: 0 1rem;
+  width: 60%;
+  color: #555;
+}
+
+.search-form input[type="submit"] {
+  width: 15%;
+  text-transform: uppercase;
+  border: solid 3px #4ed133;
+  color: 'black';
+}
+
+.recipes {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  
+}
+
+.recipe {
+  width: 30rem;
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  position: relative;
+  border-radius: 0.5rem;
+  box-shadow: 1rem 2rem 5rem #aaa
+
+  
+}
+
+.recipe h2 {
+  
+  border-radius: 75%;
+  padding: 0.3rem 0.5rem;
+  font-size-adjust: 0.58;
+  top: 2.5rem;
+  left: 2.5rem;
+  right: 2.5rem;
+  font-size: 2.5rem;
+  font-weight: 400;
+  
+  color: rgb(31, 87, 31);
+}
+
+.recipe img {
+  border-radius: 0.5rem;
+  object-fit: cover;
+}
+
+.recipe a {
+  font-size: 5rem;
+  color: #4ed133;
+}
+
+.recipe button {
+    border: solid 3px #4ed133;
+    padding: 0.4rem 0.6rem;
+    margin: 2 2rem;
+    border-radius: 1px;
+    font-size: 5 rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-left: 12.5rem;
+    
+}
+
